@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_layout_white"
+    tools:context=".masuk">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/tosca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="210dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/monsmedium"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="9dp"
+                    android:text="LOGIN PMB"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:shadowColor="#98666666"
+                    android:shadowDx="0"
+                    android:shadowDy="6"
+                    android:shadowRadius="3" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="173dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/logo"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/monsmedium"
+                    android:text="Penerimaan Mahasiswa Baru"
+                    android:textAlignment="center"
+                    android:textColor="#FFFF"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_layout_white"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="210dp">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome!"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/monsregular"
+                    android:textSize="24dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login to continue"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/monsregular"
+                    android:textSize="18dp"
+                    android:textColor="#12A346"/>
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="24dp"
+                    android:orientation="vertical"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/monsmedium"
+                        android:text="@string/username_label"
+                        android:textColor="@color/grayPrimary"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/xusername"
+                        android:background="@drawable/bg_input_edit"
+                        android:layout_width="290dp"
+                        android:layout_height="37dp"
+                        android:lines="1"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:textColor="@color/blackPrimary"
+                        android:inputType="text"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:fontFamily="@font/monsmedium"
+                        android:text="@string/password_label"
+                        android:textColor="@color/grayPrimary"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/xpassword"
+                            android:layout_width="268dp"
+                            android:layout_height="37dp"
+                            android:background="@drawable/bg_input_edit"
+                            android:inputType="textPassword"
+                            android:lines="1"
+                            android:paddingLeft="12dp"
+                            android:paddingRight="12dp"
+                            android:textColor="@color/blackPrimary"
+                            android:textSize="15dp" />
+
+                        <cyd.awesome.material.AwesomeText
+                            android:id="@+id/showPass"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:textColor="#99000000"
+                            android:textSize="20dp"
+                            app:awesome_font="material_design"
+                            app:awesome_icon="MD_VISIBILITY_OFF" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:visibility="invisible"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:text="forgot password ?"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/monsregular"
+                    android:textSize="15dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="#12A346"
+                    tools:ignore="RtlCompat" />
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="290dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <Button
+                        android:layout_gravity="center"
+                        android:id="@+id/btn_signin"
+                        android:layout_width="290dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/bg_button_green"
+                        android:fontFamily="@font/monsmedium"
+                        android:text="Sign In"
+                        android:textColor="#FFFF"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginRight="24dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

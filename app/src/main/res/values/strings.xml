@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">pmb_unas</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="prodi_label">Program Studi</string>
+    <string name="pilih_program_label">Pilih Program</string>
+    <string name="nama_label">Nama Lengkap</string>
+    <string name="email_label">Email</string>
+    <string name="nohp_label">Nomor Handphone</string>
+    <string name="jk_label">Jenis Kelamin</string>
+    <string name="jalur_label">Jalur Pendidikan</string>
+    <string name="foto_label">Upload Foto</string>
+    <string name="choose_label">choose file</string>
+
+    <string-array name="jeniskelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="program">
+        <item>Reguler</item>
+        <item>Karyawan</item>
+        <item>WNA (Asing)</item>
+    </string-array>
+
+    <string-array name="jalurpendidikan">
+        <item>Reguler</item>
+        <item>Lanjutan Diploma 3</item>
+        <item>Pindahan</item>
+        <item>Aktif Kembali</item>
+    </string-array>
+
+    <string-array name="prodi">
+        <item>"FISIP - Administrasi Publik S1"</item>
+        <item>"FISIP - Sosiologi S1"</item>
+        <item>"FISIP - Ilmu Komunikasi S1"</item>
+        <item>"FISIP - Ilmu Politik S1"</item>
+        <item>"FISIP - Hubungan Internasional S1"</item>
+        <item>"FE - Manajemen S1"</item>
+        <item>"FE - Akutansi S1"</item>
+        <item>"FE - Pariwisata S1"</item>
+        <item>"FB - Agroteknologi S1"</item>
+        <item>"FBS - Sastra Inggris S1"</item>
+        <item>"FBS - Sastra Jepang S1"</item>
+        <item>"FBS - Sastra Indonesia S1"</item>
+        <item>"FBS - Bahasa Korea S1"</item>
+        <item>"FH - Hukum S1"</item>
+        <item>"FB - Biologi S1"</item>
+        <item>"FTS - Teknik Fisika S1"</item>
+        <item>"FTS - Teknik Mesin S1"</item>
+        <item>"FTS - Teknik Elektro S1"</item>
+        <item>"FTS - Fisika S1"</item>v
+        <item>"FTKI - Teknik Informatika S1"</item>
+        <item>"FTKI - Sistem Informasi S1"</item>
+        <item>"FIK - Keperawatan S1"</item>
+        <item>"FIK - Profesi Ners"</item>
+        <item>"FIK - Profesi Bidan"</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/monsregular"
+            android:lineSpacingExtra="9dp"
+            android:text="Penerimaan Mahasiswa Baru"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="30dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="173dp"
+                android:layout_height="200dp"
+                android:src="@drawable/logo"
+                android:layout_marginTop="10dp">
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/monsregular"
+            android:lineSpacingExtra="9dp"
+            android:text="© Dimas Dandy"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

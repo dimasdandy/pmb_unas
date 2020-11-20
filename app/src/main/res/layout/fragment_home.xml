@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_input_satu"
+    tools:context=".Fragment.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_green"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/unas"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PMB Unas"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:textColor="#FFF"
+                    android:textSize="24dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_green_radius"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selamat Datang,"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="24dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bagi calon mahasiswa baru Universitas Nasional.\nSilahkan cari informasi seputar pendaftaran pada menu dibawah! Bila sudah, lakukan pendaftaran sekarang juga bergabung bersama UNAS!"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="14dp"
+                    android:textColor="#FFF"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_layout_white2"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingBottom="24dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                tools:layout_editor_absoluteY="210dp"
+                android:elevation="5dp" >
+
+                <TextView
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MAIN MENU"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/monsmedium"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:shadowColor="#98666666"
+                    android:layout_marginBottom="20dp"
+                    />
+
+                <!-- BATAS -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_menu_jadwal"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/jadwal"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Jadwal PMB"
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_menu_lokasi"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/tempat"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Lokasi"
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_menu_prosedur"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/prosedur"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Prosedur"
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- BATAS -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_menu_materi"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/ujian"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Materi Ujian"
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iv_menu_tartib"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/tartib" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Tata Tertib"
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_menu_biaya"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/biaya"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Biaya "
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- BATAS -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_menu_beasiswa"
+                            android:layout_width="60dp"
+                            android:layout_height="64dp"
+                            android:src="@drawable/beasiswa"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Beasiswa"
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_menu_jenjang"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/jenjang"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Jenjang Akademik"
+                            android:textAlignment="center"
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+                        <ImageView
+                            android:id="@+id/iv_menu_karyawan"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/karyawan"/>
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/monsregular"
+                            android:text="Kelas Karyawan"
+                            android:textAlignment="center"
+                            android:textSize="13dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_gray_berita"
+                android:layout_marginTop="10dp"
+                android:elevation="4dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Unas"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/monsmedium"
+                    android:textColor="#656567"
+                    android:textSize="20dp"/>
+                <RelativeLayout
+                    android:id="@+id/layout_berita1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profil Kampus"
+                            android:layout_marginLeft="24dp"
+                            android:fontFamily="@font/monsmedium"
+                            android:textColor="#009688"
+                            android:textSize="15dp"/>
+                        <TextView
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:text="Berikut adalah profil Universitas Nasional"
+                            android:layout_marginLeft="24dp"
+                            android:fontFamily="@font/monsregular"
+                            android:textColor="#656567"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:id="@+id/wv_profilunas"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/profil"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"/>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/line"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/layout_berita2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Visi Misi"
+                            android:layout_marginLeft="24dp"
+                            android:fontFamily="@font/monsmedium"
+                            android:textColor="#009688"
+                            android:textSize="15dp"/>
+                        <TextView
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"
+                            android:text="Berikut adalah visi dan misi Universitas Nasional"
+                            android:layout_marginLeft="24dp"
+                            android:fontFamily="@font/monsregular"
+                            android:textColor="#656567"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/wv_wfhunas"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/vismis" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

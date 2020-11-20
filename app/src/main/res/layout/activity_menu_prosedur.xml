@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_input_satu"
+    tools:context=".Menu.menu_prosedur">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_view_green2"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Prosedur"
+                    android:gravity="center"
+                    android:textColor="#FFF"
+                    android:textSize="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/prosed">
+                </ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_layout_white2"
+                android:orientation="vertical"
+                android:paddingBottom="24dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="210dp"
+                android:elevation="5dp" >
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Prosedur Pendaftaran"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/monsregular"
+                    android:textSize="20dp"
+                    android:textColor="#12A346"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="1. "
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginRight="20dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="Isilah data anda pada form registrasi pendaftaran calon mahasiswa baru online."
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="2. "
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginRight="20dp"
+                        android:text="Cetak form registrasi tersebut."
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="3. "
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginRight="20dp"
+                        android:text="Lakukan pembayaran form registrasi senilai Rp.300.000,- (untuk D3, D4 dan S1), untuk jenjang S2, Rp.450.000,- dan untuk jenjang S3, Rp.700.000,-) pada Bank Mandiri terdekat ataupun bank-bank lainnya, atas nama: Universitas Nasional Bank Mandiri Cabang Gedung Aneka Tambang Jakarta Selatan, no. rekening : 129-0098000041."
+                        android:textColor="#959595"
+                        android:textSize="15dp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="4. "
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginRight="20dp"
+                        android:text="Kirimkan bukti pembayaran dari bank dan cetakan form registrasi ke Universitas nasional melalui Email : info@unas.ac.id / ppmb@unas.ac.id atau Fax : (021) 7806462 paling lambat tiga hari sebelum tanggal test, atau bisa menghubungi. (021) 7806700 ext.143 atau (021) 7812676 atau (021) 7812582."
+                        android:textColor="#959595"
+                        android:textSize="15dp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="5. "
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginRight="20dp"
+                        android:text="Untuk mengecek nomor form registrasi anda, silahkan hubungi BPSI di nomor telepon (021) 7824031 satu hari setelah anda mengirimkan /fax bukti pembayaran dari bank dan cetakan form registrasi."
+                        android:textColor="#959595"
+                        android:textSize="15dp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="6. "
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginRight="20dp"
+                        android:text="Calon Mahasiswa Baru akan mengikuti ujian masuk pada hari yang telah ditentukan mulai pukul 08.00 WIB sampai dengan selesai, lokasi ujian: kampus UNAS Jln. Sawo Manila No. 61, Pejaten, Pasar Minggu Jakarta Selatan."
+                        android:textColor="#959595"
+                        android:textSize="15dp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="7. "
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:text="Persyaratan mahasiswa baru, silahkan"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#959595"
+                        android:textSize="15dp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+
+                //KLIK DISINI satu
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="7. "
+                        android:textColor="#FFF"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:id="@+id/tv_klikdisini_satu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:text="Klik Disini!"
+                        android:textColor="#4DB6AC"
+                        android:textSize="15dp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="8. "
+                        android:textColor="#959595"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginRight="20dp"
+                        android:text="Untuk mengetahui materi ujian, silahkan"
+                        android:textColor="#959595"
+                        android:textSize="15dp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+
+                //KLIK DISINI DUA
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:text="7. "
+                        android:textColor="#FFF"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:id="@+id/tv_klikdisini_dua"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/monsmedium"
+                        android:text="Klik Disini!"
+                        android:textColor="#4DB6AC"
+                        android:textSize="15dp"
+                        android:lineSpacingExtra="2dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

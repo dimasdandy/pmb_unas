@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "23688020974",
+    "firebase_url": "https://pmbunas.firebaseio.com",
+    "project_id": "pmbunas",
+    "storage_bucket": "pmbunas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23688020974:android:04ea22d2f7dcb4777784ff",
+        "android_client_info": {
+          "package_name": "com.db.pmb_unas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23688020974-6q022nfcnss6fabvlr86n4uuu8jibju9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.db.pmb_unas",
+            "certificate_hash": "14d2f2c0049ebcc804877b6e553cf16866bea681"
+          }
+        },
+        {
+          "client_id": "23688020974-kq7f692jtp7uiktiio3iju7ps5rar212.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.db.pmb_unas",
+            "certificate_hash": "d65ad337ff92bc1b1f098d17255685285bc6b148"
+          }
+        },
+        {
+          "client_id": "23688020974-955j3og67a1c6fsp80cqmufofvdrprm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_k-VkLsJ_HxIfMetyVe-dGt1Wzr-OZTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23688020974-955j3og67a1c6fsp80cqmufofvdrprm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
